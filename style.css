@@ -1,0 +1,18 @@
+/* #page-container {
+    background-image: url('https://download.hipwallpaper.com/desktop/1440/900/98/21/dUyCkp.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed;
+    background-size: 100% 100%; */
+/* }; */ */
+
+#header{
+    color:red;
+    text-size-adjust: 10px;
+    text-align: center
+    
+};
+
+#header-description {
+    border: solid;
+    color: white
+};
