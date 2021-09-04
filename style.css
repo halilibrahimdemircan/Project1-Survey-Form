@@ -1,18 +1,61 @@
-/* #page-container {
+#page-container {
     background-image: url('https://download.hipwallpaper.com/desktop/1440/900/98/21/dUyCkp.jpg');
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed;
-    background-size: 100% 100%; */
-/* }; */ */
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    /* background-size: 100% 100%;  */
+}
+
 
 #header{
-    color:red;
-    text-size-adjust: 10px;
-    text-align: center
+    color: white;
+    text-align: center;
+    font-weight: 900;
     
-};
+    
+}
+
+span{
+    color: red;
+}
 
 #header-description {
+    
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+#form-container{ 
+    color: wheat;
+    background-color: #020B0E;
+    opacity: 0.9;
+    /* border:solid; */
+    margin: auto;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;  
+}
+#form-frame{
+    margin: 5%;
+    padding: 5%;
+    
+    height: auto;
     border: solid;
-    color: white
-};
+}
+
+#check-radio{
+
+    /* text-align: left;
+    margin-left: 32px; */
+    
+}
+#name, #age, #email, #content {
+    /* height: 40px;
+    width: 80%;
+    padding: 8px;
+} */
+#feedback{
+    /* height: 80px;
+    width: 80%; */}
