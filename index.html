@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,44 +21,44 @@
             <div id="form-container">
                 <div id="form-frame">
                     <form action="result.html" target="_blank">
-                        <label for="name" >Name</label><br>
+                        <label class="label" for="name" >Name</label><br>
                         <input id="name" type="text" placeholder="enter your name"><br>
 
-                        <label for="age">Age</label><br>
+                        <label class="label" for="age">Age</label><br>
                         <input id="age" type="text" placeholder="age"><br>
 
-                        <label for="email">Email</label><br>
+                        <label class="label" for="email">Email</label><br>
                         <input id="email" type="email" placeholder="enter your Email"><br>
                         
 
-                        <label for="content">Content Type</label><br>
+                        <label class="label" for="content">Content Type</label><br>
                         <select name="content" id="content">
                             <option value="series">Series</option>
                             <option value="films">Films</option>     
                         </select><br>
                         <div id="check-radio">
 
-                            <label for="movie-type">Movie Type</label><br>
+                            <label class="label" for="movie-type">Movie Type</label><br>
                             <input id="comedy" type="checkbox" >
-                            <label for="comedy">Comedy</label><br>
+                            <label class="label" for="comedy">Comedy</label><br>
                             <input id="action" type="checkbox" >
-                            <label for="action">Action</label><br>
+                            <label class="label" for="action">Action</label><br>
                             <input id="romance" type="checkbox" >
-                            <label for="romance">Romance</label><br>
+                            <label class="label" for="romance">Romance</label><br>
 
-                            <label for="movie-type">Gender</label><br>
+                            <label class="label" for="gender">Gender</label><br>
                             <input id="male" type="radio" >
-                            <label for="male">Male</label><br>
+                            <label class="label" for="male">Male</label><br>
                             <input id="female" type="radio" >
-                            <label for="female">Female</label><br>
+                            <label class="label" for="female">Female</label><br>
                             <input id="other" type="radio" >
-                            <label for="other">Other</label><br>
+                            <label class="label" for="other">Other</label><br>
                         </div>
 
-                        <label for="feedback">Feedback</label><br>
+                        <label class="label" for="feedback">Feedback</label><br>
                         <input id="feedback" type="text"><br>
 
-                        <input type="submit">
+                        <input id="submit" type="submit">
 
 
 

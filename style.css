@@ -2,36 +2,33 @@
     background-image: url('https://download.hipwallpaper.com/desktop/1440/900/98/21/dUyCkp.jpg');
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    /* background-size: 100% 100%;  */
+    background-size: 100% 100%; 
 }
-
-
 #header{
     color: white;
-    text-align: center;
-    font-weight: 900;
-    
-    
+    display: flex;
+    justify-content: center;  
 }
-
+h1{
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.7rem;
+}
 span{
     color: red;
 }
-
-#header-description {
-    
-    color: white;
-    text-align: center;
+#header-description {  
+    color: whitesmoke;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
     font-style: oblique;
 }
-
 #form-container{ 
-    color: wheat;
+    font-family: 'Noto Sans', sans-serif;
+    color: whitesmoke;
     background-color: #020B0E;
     opacity: 0.9;
-    /* border:solid; */
     margin: auto;
-    text-align: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -40,22 +37,36 @@ span{
 #form-frame{
     margin: 5%;
     padding: 5%;
-    
     height: auto;
-    border: solid;
-}
-
-#check-radio{
-
-    /* text-align: left;
-    margin-left: 32px; */
-    
 }
 #name, #age, #email, #content {
-    /* height: 40px;
-    width: 80%;
-    padding: 8px;
-} */
+    height: 3rem; 
+    width: 98%; 
+    margin: 0.5rem 0rem;  
+} 
+#content{
+    width: 100%;
+    margin-bottom: 1rem;
+}
 #feedback{
-    /* height: 80px;
-    width: 80%; */}
+    height: 4.5rem;
+    width: 98%;
+    margin: 1rem 0rem;
+    padding: 0;  
+}
+#submit{
+    background-color: red;
+    color: white;
+    display: grid;
+    margin: auto;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5rem;   
+}
+#romance {
+    margin-bottom: 2rem;
+}
+#other{
+    margin-bottom: 1rem;
+}
+
