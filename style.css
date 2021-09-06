@@ -46,7 +46,7 @@ span{
 }
 #name, #age, #email, #content {
     height: 3rem; 
-    width: 98%; 
+    width: 100%; 
     margin: 0.5rem 0rem;  
     padding: 0.3rem;
 } 
@@ -56,7 +56,7 @@ span{
 }
 #feedback{
     height: 4.5rem;
-    width: 98%;
+    width: 100%;
     margin: 1rem 0rem;
     padding-top: 5px ;  
     padding-left: 2px;
